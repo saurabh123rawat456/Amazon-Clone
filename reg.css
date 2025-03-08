@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    cursor: pointer;
+}
+.panel1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+.account{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.box{
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 10px;
+    width: 320px;
+    height: 600px;
+    padding: 20px 26px 15px 26px;
+}
+.head{
+    color: #111111;
+    font-size: 1.8rem;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.p1{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.in{
+    width: 305px;
+    height: 28px;
+    border: 1px solid rgb(157, 155, 155);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 3px 7px;
+}
+.out{
+    width: 305px;
+    height: 28px;
+    border: 1px solid rgb(157, 155, 155);
+    border-radius: 4px;
+    padding: 3px 7px;
+}
+.box button{
+    width: 320px;
+    height: 35px;
+    background-color: rgb(255, 213, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 3px 7px;
+    margin-bottom: 25px;
+}
+.p3{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+.p2{
+    font-size: 0.8rem;
+    padding-bottom: 25px;
+    border-bottom: 0.5px solid rgb(216, 213, 213);
+    margin-bottom: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: #007185;
+}
+.password{
+    display: flex;
+}
+.password i{
+    font-size: 0.8rem;
+    padding-right: 5px;
+}
+.p4{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid rgb(216, 213, 213);
+    margin-bottom: 25px;   
+}
